@@ -1,0 +1,20 @@
+{
+  "name": "@local-blockchain-toolbox/contract-primitives",
+  "version": "1.0.20",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat run test",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "contracts/**/*.sol",
+    "artifacts/contracts/**/*.json"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@openzeppelin/contracts": "^4.7.2",
+    "hardhat": "^2.12.2"
+  }
+}
