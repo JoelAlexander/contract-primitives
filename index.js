@@ -3,6 +3,7 @@ const SingleAccountAuthorizer = require('./artifacts/contracts/SingleAccountAuth
 const MultiAccountAuthorizer = require('./artifacts/contracts/MultiAccountAuthorizer.sol/MultiAccountAuthorizer.json').abi
 const AddressSet = require('./artifacts/contracts/AddressSet.sol/AddressSet.json').abi
 const StringSet = require('./artifacts/contracts/StringSet.sol/StringSet.json').abi
+const IDSet = require('./artifacts/contracts/IDSet.sol/IDSet.json').abi
 const IAuthorizer = require('./artifacts/contracts/IAuthorizer.sol/IAuthorizer.json').abi
 
 module.exports = {
@@ -11,5 +12,6 @@ module.exports = {
   MultiAccountAuthorizer,
   AddressSet,
   StringSet,
+  IDSet,
   IAuthorizer
 }
